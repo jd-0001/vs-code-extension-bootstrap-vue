@@ -1,24 +1,28 @@
 {
 	"name": "bootstrap-vue",
-	"displayName": "bootstrap-vue",
+	"displayName": "Bootstrap Vue Extension",
 	"description": "Bootstrap Vue Extension",
+	"repository": { "type": "git", "url": "https://github.com/jd-0001/vs-code-extension-bootstrap-vue.git" },
 	"version": "0.0.1",
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
 	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-        "onCommand:bootstrap-vue.helloWorld"
+		"Snippets"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "bootstrap-vue.helloWorld",
-            "title": "Hello World"
-
-		}]
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/components.json"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",

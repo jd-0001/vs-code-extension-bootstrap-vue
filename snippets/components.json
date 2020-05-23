@@ -1,0 +1,9 @@
+{
+    "b-button": {
+        "prefix": "bvbtn",
+        "body": [
+          "<b-button${1: variant=\"${2:primary}\"}>${3:example}</b-button>"
+        ],
+        "description": "b-button"
+      }
+}

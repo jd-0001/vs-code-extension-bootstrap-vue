@@ -1,0 +1,10 @@
+{
+  "Import bootstrap-vue": {
+    "prefix": "ibsv",
+    "body": [
+      "import { ${1} } from 'bootstrap-vue'"
+    ],
+    "description": "Import bootstrap-vue"
+  },
+
+}

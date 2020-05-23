@@ -2,8 +2,36 @@
     "b-button": {
         "prefix": "bvbtn",
         "body": [
-          "<b-button${1: variant=\"${2:primary}\"}>${3:example}</b-button>"
+          "<b-button${1: variant=\"${2:primary}\"}>${3:Text}</b-button>"
         ],
         "description": "b-button"
+      },
+      "b-button Outline": {
+        "prefix": "bvbtno",
+        "body": [
+          "<b-button variant=\"outline-${1:primary}\">${3:Text}</b-button>"
+        ],
+        "description": "b-button Outline"
+      },
+      "b-button Pill": {
+        "prefix": "bvbtnp",
+        "body": [
+          "<b-button pill${1: variant=\"${2:primary}\"}>${3:Text}</b-button>"
+        ],
+        "description": "b-button Pill"
+      }
+      "b-button Squared": {
+        "prefix": "bvbtnsq",
+        "body": [
+          "<b-button squared${1: variant=\"${2:primary}\"}>${3:Text}</b-button>"
+        ],
+        "description": "b-button Squared"
+      },
+      "b-button Size": {
+        "prefix": "bvbtns",
+        "body": [
+          "<b-button size=\"${1:sm}\"${2: variant=\"${3:primary}\"}>${4:Text}</b-button>"
+        ],
+        "description": "b-button Size"
       }
 }

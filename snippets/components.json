@@ -131,5 +131,24 @@
       "</b-dropdown>"
     ],
     "description": "BV: Dropdown with Size"
+  },
+  "BV: Form": {
+    "prefix": "form",
+    "body": ["<b-form @submit=\"${1:submit_method}\"${2: @reset=\"${3:reset_method}\"}>", "  ${4}", "</b-form>"],
+    "description": "BV: Form"
+  },
+  "BV: Form Inline": {
+    "prefix": "form-inline",
+    "body": ["<b-form @submit=\"${1:submit_method}\"${2: @reset=\"${3:reset_method}\"} inline>", "  ${4}", "</b-form>"],
+    "description": "BV: Form Inline"
+  },
+  "BV: Form Group": {
+    "prefix": "form-grp",
+    "body": [
+      "<b-form-group${1: id=\"${2:id}\"}${3: label=\"${4:label}\" label-for=\"${5:for}\"}>",
+      "  ${6}",
+      "</b-form-group>"
+    ],
+    "description": "BV: Form Group"
   }
 }

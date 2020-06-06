@@ -172,5 +172,25 @@
       "<b-form-input v-model=\"${1:model}\" size=\"${2:sm}\" type=\"${3:text}\" placeholder=\"${4:placeholder}\"/>"
     ],
     "description": "BV: Form Input with Size and Placeholder"
+  },
+  "BV: Form Textarea": {
+    "prefix": "textarea",
+    "body": ["<b-form-textarea v-model=\"${1:model}\" />"],
+    "description": "BV: Form Textarea"
+  },
+  "BV: Form Textarea with Placeholder": {
+    "prefix": "textarea-with-placeholder",
+    "body": ["<b-form-textarea v-model=\"${1:model}\" placeholder=\"${2:placeholder}\"/>"],
+    "description": "BV: Form Textarea with Placeholder"
+  },
+  "BV: Form Textarea with Size": {
+    "prefix": "textarea-with-size",
+    "body": ["<b-form-textarea v-model=\"${1:model}\" size=\"${2:sm}\" />"],
+    "description": "BV: Form Textarea with Size"
+  },
+  "BV: Form Textarea with Size and Placeholder": {
+    "prefix": "textarea-with-size-and-placeholder",
+    "body": ["<b-form-textarea v-model=\"${1:model}\" size=\"${2:sm}\" placeholder=\"${4:placeholder}\"/>"],
+    "description": "BV: Form Textarea with Size and Placeholder"
   }
 }

@@ -15,6 +15,7 @@ WIP
 ## TODO:
 
 - snippets for attributes
+  - Dropdown
 
 > I need dev response on this. Is below tasks are required or not?
 

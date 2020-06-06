@@ -117,5 +117,19 @@
       "</b-card>"
     ],
     "description": "BV: Card with Image"
+  },
+  "BV: Dropdown": {
+    "prefix": "dropdown",
+    "body": ["<b-dropdown variant=\"${1:primary}\" text=\"${2:dropdown-text}\">", "  ${3}", "</b-dropdown>"],
+    "description": "BV: Dropdown"
+  },
+  "BV: Dropdown with Size": {
+    "prefix": "dropdown-with-size",
+    "body": [
+      "<b-dropdown size=\"${1:sm}\" variant=\"${2:primary}\" text=\"${3:dropdown-text}\">",
+      "  ${4}",
+      "</b-dropdown>"
+    ],
+    "description": "BV: Dropdown with Size"
   }
 }

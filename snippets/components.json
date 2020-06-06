@@ -150,5 +150,27 @@
       "</b-form-group>"
     ],
     "description": "BV: Form Group"
+  },
+  "BV: Form Input": {
+    "prefix": "input",
+    "body": ["<b-form-input v-model=\"${1:model}\" type=\"${2:text}\" />"],
+    "description": "BV: Form Input"
+  },
+  "BV: Form Input with Placeholder": {
+    "prefix": "input-with-placeholder",
+    "body": ["<b-form-input v-model=\"${1:model}\" type=\"${2:text}\" placeholder=\"${3:placeholder}\"/>"],
+    "description": "BV: Form Input with Placeholder"
+  },
+  "BV: Form Input with Size": {
+    "prefix": "input-with-size",
+    "body": ["<b-form-input v-model=\"${1:model}\" size=\"${2:sm}\" type=\"${3:text}\" />"],
+    "description": "BV: Form Input with Size"
+  },
+  "BV: Form Input with Size and Placeholder": {
+    "prefix": "input-with-size-and-placeholder",
+    "body": [
+      "<b-form-input v-model=\"${1:model}\" size=\"${2:sm}\" type=\"${3:text}\" placeholder=\"${4:placeholder}\"/>"
+    ],
+    "description": "BV: Form Input with Size and Placeholder"
   }
 }

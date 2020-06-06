@@ -192,5 +192,22 @@
     "prefix": "textarea-with-size-and-placeholder",
     "body": ["<b-form-textarea v-model=\"${1:model}\" size=\"${2:sm}\" placeholder=\"${4:placeholder}\"/>"],
     "description": "BV: Form Textarea with Size and Placeholder"
+  },
+  "BV: Form Select": {
+    "prefix": "select",
+    "body": ["<b-form-select v-model=\"${1:model}\" options=\"${2:options}\" />"],
+    "description": "BV: Form Select"
+  },
+  "BV: Form Select with Size": {
+    "prefix": "select-with-size",
+    "body": ["<b-form-select v-model=\"${1:model}\" options=\"${2:options}\" size=\"${3:sm}\" />"],
+    "description": "BV: Form Select with Size"
+  },
+  "BV: Form select with field name": {
+    "prefix": "select-field-names",
+    "body": [
+      "<b-form-select v-model=\"${1:model}\" options=\"${2:options}\" value-field=\"${3:field}\" text-field=\"${4:field}\"${5: disabled-field=\"${6:field}\"} />"
+    ],
+    "description": "BV: Form Select"
   }
 }

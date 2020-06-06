@@ -20,3 +20,4 @@ WIP
 
 - Avatar with Badge
 - Avatar groups
+- Breadcrumb snippets

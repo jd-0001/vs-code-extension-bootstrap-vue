@@ -88,5 +88,15 @@
     "prefix": "badge-pill",
     "body": ["<b-badge pill variant=\"${1:primary}\">${2:string}</b-badge>"],
     "description": "BV: Badge Pill"
+  },
+  "BV: Button Group": {
+    "prefix": "btn-grp",
+    "body": ["<b-button-group variant=\"${1:primary}\">", "  ${2}", "</b-button-group>"],
+    "description": "BV: Button Group"
+  },
+  "BV: Button Group with Size": {
+    "prefix": "btn-grp-with-size",
+    "body": ["<b-button-group size=\"${1:sm}\" variant=\"${2:primary}\">", "  ${3}", "</b-button-group>"],
+    "description": "BV: Button Group with Size"
   }
 }

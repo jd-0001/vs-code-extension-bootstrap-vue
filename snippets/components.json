@@ -98,5 +98,24 @@
     "prefix": "btn-grp-with-size",
     "body": ["<b-button-group size=\"${1:sm}\" variant=\"${2:primary}\">", "  ${3}", "</b-button-group>"],
     "description": "BV: Button Group with Size"
+  },
+  "BV: Card": {
+    "prefix": "card",
+    "body": ["<b-card title=\"${1:title}\">", "  ${2}", "</b-card>"],
+    "description": "BV: Card"
+  },
+  "BV: Card with Sub-title": {
+    "prefix": "card-with-sub-title",
+    "body": ["<b-card title=\"${1:title}\" sub-title=\"${2:sub-title}\">", "  ${3}", "</b-card>"],
+    "description": "BV: Card with Sub-title"
+  },
+  "BV: Card with Image": {
+    "prefix": "card-with-img",
+    "body": [
+      "<b-card title=\"${1:title}\" img-src=\"${2:src}\" img-alt=\"${3:alt-text}\"${4: img-top}>",
+      "  ${5}",
+      "</b-card>"
+    ],
+    "description": "BV: Card with Image"
   }
 }

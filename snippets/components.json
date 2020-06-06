@@ -41,12 +41,12 @@
   },
   "BV: Avatar": {
     "prefix": "avatar",
-    "body": ["<b-avatar>${1:string}</b-avatar>"],
+    "body": ["<b-avatar variant=\"${1:primary}\">${2:string}</b-avatar>"],
     "description": "BV: Avatar"
   },
   "BV: Avatar with Size": {
     "prefix": "avatar-with-size",
-    "body": ["<b-avatar size=\"${1:sm}\">${2:string}</b-avatar>"],
+    "body": ["<b-avatar size=\"${1:sm}\" variant=\"${2:primary}\">${3:string}</b-avatar>"],
     "description": "BV: Avatar with Size"
   },
   "BV: Avatar Text": {

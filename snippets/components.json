@@ -38,5 +38,45 @@
     "prefix": "alert-v-model",
     "body": ["<b-alert v-model=\"${1:model}\" variant=\"${2:primary}\">${3:string}</b-alert>"],
     "description": "BV: Alert v-model"
+  },
+  "BV: Avatar": {
+    "prefix": "avatar",
+    "body": ["<b-avatar>${1:string}</b-avatar>"],
+    "description": "BV: Avatar"
+  },
+  "BV: Avatar with Size": {
+    "prefix": "avatar-with-size",
+    "body": ["<b-avatar size=\"${1:sm}\">${2:string}</b-avatar>"],
+    "description": "BV: Avatar with Size"
+  },
+  "BV: Avatar Text": {
+    "prefix": "avatar-text",
+    "body": ["<b-avatar variant=\"${1:primary}\" text=\"${2:text}\" />"],
+    "description": "BV: Avatar Text"
+  },
+  "BV: Avatar Text with Size": {
+    "prefix": "avatar-text-with-size",
+    "body": ["<b-avatar size=\"${1:sm}\" variant=\"${2:primary}\" text=\"${3:text}\" />"],
+    "description": "BV: Avatar Text with Size"
+  },
+  "BV: Avatar src": {
+    "prefix": "avatar-src",
+    "body": ["<b-avatar variant=\"${1:primary}\" src=\"${2:src}\" />"],
+    "description": "BV: Avatar src"
+  },
+  "BV: Avatar src with Size": {
+    "prefix": "avatar-src-with-size",
+    "body": ["<b-avatar size=\"${1:sm}\"  variant=\"${2:primary}\" src=\"${3:src}\" />"],
+    "description": "BV: Avatar src with Size"
+  },
+  "BV: Avatar Icon": {
+    "prefix": "avatar-icon",
+    "body": ["<b-avatar variant=\"${1:primary}\" icon=\"${2:icon}\" />"],
+    "description": "BV: Avatar Icon"
+  },
+  "BV: Avatar Icon with Size": {
+    "prefix": "avatar-icon-with-size",
+    "body": ["<b-avatar size=\"${1:sm}\" variant=\"${2:primary}\" icon=\"${3:icon}\" />"],
+    "description": "BV: Avatar Icon with Size"
   }
 }

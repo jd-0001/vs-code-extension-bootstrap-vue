@@ -11,3 +11,12 @@ WIP
 ## Release Notes
 
 WIP
+
+## TODO:
+
+- snippets for attributes
+
+> I need dev response on this. Is below tasks are required or not?
+
+- Avatar with Badge
+- Avatar groups

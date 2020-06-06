@@ -78,5 +78,15 @@
     "prefix": "avatar-icon-with-size",
     "body": ["<b-avatar size=\"${1:sm}\" variant=\"${2:primary}\" icon=\"${3:icon}\" />"],
     "description": "BV: Avatar Icon with Size"
+  },
+  "BV: Badge": {
+    "prefix": "badge",
+    "body": ["<b-badge variant=\"${1:primary}\">${2:string}</b-badge>"],
+    "description": "BV: Badge"
+  },
+  "BV: Badge Pill": {
+    "prefix": "badge-pill",
+    "body": ["<b-badge pill variant=\"${1:primary}\">${2:string}</b-badge>"],
+    "description": "BV: Badge Pill"
   }
 }
